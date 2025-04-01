@@ -1,0 +1,454 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #040000; 
+    color: white;
+    background-color: #fff;
+    color: black;
+   
+}
+
+.backgroundimg{
+    height: 440px;
+    width: 100%;
+    background-image: url(f.jpg);
+    background-size: cover;
+    font-size: 20px ;
+    color: aliceblue;
+
+}
+
+.head{
+    height: 60px;
+    width: 100%;
+    background: #da0505;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: fixed; */
+    
+}
+
+
+ae{
+    cursor: pointer;
+
+}
+
+ae:hover{
+    background-color: transparent;
+    box-shadow: 0px 0px 10px;
+}
+
+ 
+
+
+k{
+    margin-left: 480px;
+    cursor: pointer;
+
+}
+
+c{
+    margin-left: 100px;
+    cursor: pointer;
+
+}
+
+d{
+    margin-left: 100px;
+    cursor: pointer;
+
+}
+
+e{
+    margin-left: 100px;
+    cursor: pointer;
+
+}
+
+.middle{
+    height: 180px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px; 
+    font-family: cursive; 
+    font-weight: 100px;
+
+}
+
+
+.t{
+
+    height: 80px;
+    width: 380px;
+    background-image: url(e.jpg);
+     background-color: transparent; 
+     background-size: cover; 
+
+}
+
+
+
+
+.fotter{
+    margin-left: 400px;
+    height: 40px;
+    width: 49%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    font-family: cursive;
+    /* background-color: rgb(185, 186, 186); */
+    /* background-color: rgba(185, 186, 186, 0.703); */
+    /* background-color: transparent; */
+    color: #ffffff;
+    /* color: #1b0101; */
+    /* color: rgb(57, 9, 9); */
+    /* color: black; */
+    border-radius: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+.search{
+    height: 40px;
+    width: 35%;
+    background-color: rgb(255, 255, 255);
+    /* color:#1b0101 ; */
+    /* background-color: rgba(185, 186, 186, 0.863); */
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-left: 490px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+.f{
+    margin-left: 20px;
+}
+
+select{
+    background-color: transparent;
+    height: 50%;
+    border-radius: 25px;
+    color: #1b0101 ;
+    cursor: pointer;
+    border-style: none;
+    font-size: 18px;
+   }
+
+   g{
+    margin-left: 160px;
+   }
+
+
+   .secpage{
+    height: 300px;
+    width: 100%;
+    display: flex;
+
+
+   }
+
+   .abc{
+     height: 230px; 
+    width: 400px;
+    margin-left: 50px;
+    cursor: pointer;
+    margin-top: 40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-style: line;
+    box-shadow: 0px 0px 4px;
+   }
+
+   .abc:hover{
+    box-shadow: 0px 0px 10px;
+
+   }
+
+
+   .j{
+
+    background-image: url(https://th.bing.com/th/id/R.883da34beb4d5f5320420ecf06acbe99?rik=0BP0%2bNQwgKUlYg&riu=http%3a%2f%2fthehindi.in%2fwp-content%2fuploads%2f2019%2f09%2fbhojan.jpg&ehk=9dmWEydbleHLdnJJDp0eG%2bbpIi5UAsyBqMn8Exbzo0c%3d&risl=&pid=ImgRaw&r=0);
+    background-size:cover;
+    height: 150px;
+    border-top-right-radius:20px ;
+    border-top-left-radius:20px ;
+   }
+
+   .order{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+
+   .r{
+    height: 230px;
+    width: 400px;
+    margin-left: 100px;
+    cursor: pointer;
+    margin-top: 40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-style: line;
+    box-shadow: 0px 0px 4px;
+
+   }
+
+   .r:hover{
+    box-shadow: 0px 0px 10px;
+
+   }
+
+
+   .secimg{
+      height: 150px;
+      background-image: url(https://th.bing.com/th/id/OIP.RQjfJGU3MXXUnbTrIKCEDwHaGF?rs=1&pid=ImgDetMain);
+      background-size: cover ;
+      border-top-right-radius:20px ;
+      border-top-left-radius:20px ;
+   }
+
+   .s{
+    height: 230px;
+    width: 400px;
+    margin-left: 100px;
+    cursor: pointer;
+    margin-top: 40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-style: line;
+    box-shadow: 0px 0px 4px;
+   }
+
+   
+   .s:hover{
+    box-shadow: 0px 0px 10px;
+
+   }
+
+   .thirdimg{
+    height: 150px;
+    background-size: cover ;
+    border-top-right-radius:20px ;
+    border-top-left-radius:20px ;
+    background-image: url(https://png.pngtree.com/background/20230621/original/pngtree-rapidly-satisfy-your-hunger-with-3d-fast-food-background-03-picture-image_3910286.jpg);
+   }
+   .popuation{
+    margin-top: 60px;
+    margin-left: 400px;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+
+
+   .locality{
+    height: 80px;
+    width: 300px;
+    margin-left: 600px;
+    margin-top: 40px;
+    box-shadow: 0px 0px 4px;
+    border-radius: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 20px;
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+   }
+
+   .locality:hover{
+    box-shadow: 0px 0px 10px;
+   }
+
+
+   .l{
+        margin-left: 10px;
+        /* margin-top: 50px; */
+        /* text-align: center; */
+        display: flex;
+        
+   }
+
+   .m{
+    margin-top: 25px;
+    margin-left: 110px;
+   }
+
+
+
+   .thirdpage{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    /* background-color: rgb(254, 216, 223); */
+    margin-top: 110px;
+   }
+
+   
+   .phone{
+    height: 90%;
+    width: 400px;
+    margin-left: 200px;
+    border-radius: 20px;
+     background-image: url(phone.jpg);
+    background-size: cover;
+    margin-top: 30px;
+      
+   }
+
+   o{
+    font-size: 50px;
+    margin: 90px;
+    margin-left: 150px;
+
+   }
+   .secnd{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 30px;
+    
+   }
+
+   q{
+    margin-left: 150px;
+    font-size: 18px;
+    text-align: center;
+   }
+
+
+   input{
+    margin-left: 160px;
+    margin-top: 60px;
+    cursor: pointer;
+   }
+
+   .w{
+    margin-top: 50px;
+    margin-left: 150px;
+    height: 40px;
+    width: 300px;
+    font-size: 20px;
+    box-shadow: 0px 0px 2px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+   }
+
+   #ab{
+    margin-left: 20px;
+   }
+
+
+   .y{
+      height: 35px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      width: 150px;
+      background-color: aqua;
+      /* margin-left: 400px; */
+   }
+
+   .z{
+    margin-top: 50px;
+    margin-left: 30px;
+    height: 40px;
+    width: 100px;
+    font-size: 15px;
+    box-shadow: 0px 0px 2px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #df4343;
+    color: #fff;
+    cursor: pointer;
+   
+   }
+
+   .z:hover{
+    background-color: #bd2222;
+    box-shadow: 0px 0px 3px black;
+   }
+
+
+   .za{
+    display: flex;
+   }
+
+
+   .fourthpage{
+    height: 500px;
+    width: 100%;
+  
+    /* background-color: #bd2222; */
+   }
+
+   .collection{
+    margin-left: 250px;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+   }
+
+
+   .ad{
+    margin-top: 20px;
+    font-size: 23px;
+    margin-left: 250px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+   
+
+   .pho{
+       display: flex;
+       margin-top: 30px;
+   }
+
+
+   .one{
+    height: 300px;
+    width: 300px;
+    background-color: #040000;
+    margin-left: 240px;
+    border-radius: 10px;
+    background-image: url(1.jpg);
+    background-size: cover;
+
+   }
+
+   .two{
+    height: 300px;
+    width: 300px;
+    background-color: #040000;
+    margin-left: 100px;
+    border-radius: 10px;
+    background-image: url(2.jpg);
+    background-size: cover;
+
+   }
+
+   .three{
+    height: 300px;
+    width: 300px;
+    background-color: #040000;
+    margin-left: 100px;
+    border-radius: 10px;
+    background-image: url(3.jpg);
+    background-size: cover;
+   }
